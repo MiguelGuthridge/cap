@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "capture"
+version = "0.1.0"
+description = "Simple web server to capture stuff"
+authors = ["Miguel Guthridge <hdsq@outlook.com.au>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
